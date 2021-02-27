@@ -7,8 +7,12 @@
     tools:context=".Main2Activity">
 
     <LinearLayout
+        android:id="@+id/linha1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp">
 
     <TextView
         android:id="@+id/textView"
@@ -20,4 +24,21 @@
 
     </LinearLayout>
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linha1">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/button1"
+        android:text="@string/insert_item"
+        android:layout_below="@id/recyclerview1"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:onClick="insert"/>
 </RelativeLayout>
