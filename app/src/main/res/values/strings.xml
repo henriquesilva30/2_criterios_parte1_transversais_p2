@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">2_criterios_parte1_transversais_p2</string>
+    <string name="ficheiro">Ficheiro</string>
+    <string name="novo">Novo</string>
+    <string name="opcao2">opcao2</string>
+    <string name="opcao3">opcao3</string>
+    <string name="opcao4">opcao4</string>
+    <string name="open">Open</string>
 </resources>
