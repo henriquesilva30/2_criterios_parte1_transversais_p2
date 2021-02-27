@@ -24,4 +24,11 @@ class MainActivity : AppCompatActivity() {
         findViewById<TextView>(R.id.textView1).setText(editHelloWorld.text)
 
     }
+
+    fun toast(view: View) {
+
+        Toast.makeText(this,"editHelloWorld", Toast.LENGTH_SHORT).show()
+
+
+    }
 }
