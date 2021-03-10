@@ -10,4 +10,8 @@
     <string name="espanha">Espanha</string>
     <string name="_12031" translatable="false">12031</string>
     <string name="insert_item">Inserir item</string>
+    <string name="manter_informa_o_guardada">Manter informação guardada</string>
+    <string name="preference_file_key"> Ficheiro 1</string>
+    <string name="bool"> Bool</string>
+
 </resources>
